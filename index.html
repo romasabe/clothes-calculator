@@ -57,6 +57,27 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Underwear x<span id="undCount">0</span></h5>
+                <p class="card-text">Total Price: <span id = "undPrice">$0.00</span></p>
+                <button onclick = "select(this.classList.item(0), false)" class="underwear btn btn-primary">add</button>
+                <button onclick = "select(this.classList.item(0), true)" class="underwear btn btn-primary">remove</button>
+              </div>
+          </div>
+          <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">socks x<span id="sockCount">0</span></h5>
+                  <p class="card-text">Total Price: <span id = "sockPrice">$0.00</span></p>
+                  <button onclick = "select(this.classList.item(0), false)" class="sock btn btn-primary">add</button>
+                  <button onclick = "select(this.classList.item(0), true)" class="sock btn btn-primary">remove</button>
+                </div>
+              </div>
+          </div>
+      </div>
         <div class ="row">
             <div class = "col-12">
                 <h1>Total: <span id = "total">$0.00</span></h1>
