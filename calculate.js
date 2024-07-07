@@ -74,8 +74,8 @@ function select(selectClass, removeBool) {
             underwear--;
         };
         undTotal.textContent = underwear;
-        let curTotal = underwear * underwearPrice
-        undPrice.textContent = USDollar.format(curTotal)
+        let curTotal = underwear * underwearPrice;
+        undPrice.textContent = USDollar.format(curTotal);
     } else if(selectClass == "sock"){
         if (removeBool === false){
             socks++;
@@ -83,8 +83,8 @@ function select(selectClass, removeBool) {
             socks--;
         };
         sockTotal.textContent = socks;
-        let curTotal = socks * socksPrice
-        sockPrice.textContent = USDollar.format(curTotal)
+        let curTotal = socks * socksPrice;
+        sockPrice.textContent = USDollar.format(curTotal);
     }else{
         alert("Fail");
     }
